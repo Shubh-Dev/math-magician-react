@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Calculator.css';
-// import calculate from '../logic/calculate';
 
 const Calculator = () => {
   const [result, setResult] = useState('');
@@ -12,6 +11,7 @@ const Calculator = () => {
   };
 
   const calculate = () => {
+    // eslint-disable-next-line no-eval
     setResult(eval(result));
   };
 
@@ -41,9 +41,3 @@ const Calculator = () => {
   );
 };
 export default Calculator;
-
-// <input type="text" placeholder="0" className="display-area" value={result} />;
-
-// x
-
-// ÷
