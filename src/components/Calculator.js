@@ -2,18 +2,7 @@ import React from 'react';
 import './Calculator.css';
 import calculate from '../logic/calculate';
 
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      total: null,
-      next: null,
-      operation: null,
-    };
-
-    this.handleClicks = this.handleClicks.bind(this);
-  }
+const Calculator = () => { 
 
   handleClicks(e) {
     const Target = e.target.value;
@@ -22,24 +11,11 @@ class Calculator extends React.Component {
       total: state.total,
       operation: state.operation,
     }, Target));
-  }
-
-  render() {
-    const { total, next, operation } = this.state;
+  };
     return (
       <div className="container">
         <div className="display-area">
-          {total}
-          {' '}
-
-          {' '}
-          {operation}
-          {' '}
-
-          {' '}
-          {next}
-          {' '}
-
+          
         </div>
         <button onClick={this.handleClicks} type="button" value="AC">AC</button>
         <button onClick={this.handleClicks} type="button" value="+/-">+/-</button>
@@ -63,5 +39,4 @@ class Calculator extends React.Component {
       </div>
     );
   }
-}
 export default Calculator;
