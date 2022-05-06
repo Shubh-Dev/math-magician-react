@@ -5,6 +5,7 @@ import calculate from '../logic/calculate';
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
+
     this.state = {
       total: null,
       next: null,
@@ -15,8 +16,12 @@ class Calculator extends React.Component {
   }
 
   handleClicks(e) {
-    const target = e.target.value;
-    this.setState(() => calculate(this.state, target));
+    const Target = e.target.value;
+    this.setState((state) => calculate({
+      next: state.next,
+      total: state.total,
+      operation: state.operation,
+    }, Target));
   }
 
   render() {
