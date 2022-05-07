@@ -1,17 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Calculator.css';
 import calculate from '../logic/calculate';
 
 const Calculator = () => { 
-
-  handleClicks(e) {
-    const Target = e.target.value;
-    this.setState((state) => calculate({
-      next: state.next,
-      total: state.total,
-      operation: state.operation,
-    }, Target));
-  };
+  co
     return (
       <div className="container">
         <div className="display-area">
