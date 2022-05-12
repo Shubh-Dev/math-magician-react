@@ -7,6 +7,7 @@
 body {
   margin: 0;
   padding: 0;
+  background: linear-gradient(to right, #eea486, #dfd9e1);
 }
 
 .container {
