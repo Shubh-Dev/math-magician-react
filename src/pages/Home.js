@@ -1,9 +1,9 @@
 import React from 'react';
+import './Home.css';
 
-const Homepage = () => {
+const Homepage = () => (
   <div className="homepage">
-    <h1>Math Magicians</h1>
-    <h4>Welcome to our page!</h4>
+    <h2>Welcome to our page!</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
       sed do eiusmod tempor incididunt ut labore et dolore
@@ -25,7 +25,7 @@ const Homepage = () => {
         eu fugiat nulla pariatur. Excepteur sint occaecat.
       </p>
     </p>
-  </div>;
-};
+  </div>
+);
 
 export default Homepage;

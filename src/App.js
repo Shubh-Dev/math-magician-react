@@ -4,18 +4,20 @@ import './App.css';
 import Calculator from './components/Calculator';
 import Homepage from './pages/Home';
 import Quotes from './pages/Quotes';
+import Header from './pages/Header';
 
 const app = () => (
-  <div className="app">
-    <div>
-      <header>
+  <>
+    <div className="app">
+      <div>
+        <Header />
         <Routes>
-          <Route path="calculator" elements={<Calculator />} />
-          <Route path="/" elements={<Homepage />} />
-          <Route path="quote" elements={<Quotes />} />
+          <Route path="calculator" element={<Calculator />} />
+          <Route path="/" element={<Homepage />} />
+          <Route path="quote" element={<Quotes />} />
         </Routes>
-      </header>
+      </div>
     </div>
-  </div>
+  </>
 );
 export default app;

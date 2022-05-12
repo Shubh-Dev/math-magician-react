@@ -1,13 +1,13 @@
 import React from 'react';
+import './Quote.css';
 
-const Quotes = () => {
+const Quotes = () => (
   <div className="quotesSection">
-    <h2>Math Magician</h2>
     <p>
-      mathematics is not about numbers, equation, computations or algorithms:
+      Mathematics is not about numbers, equation, computations or algorithms:
       it is about understanding.- Willium Paul Thurston.
     </p>
-  </div>;
-};
+  </div>
+);
 
 export default Quotes;
