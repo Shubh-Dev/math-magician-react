@@ -10,6 +10,10 @@
 
 ## Live Demo (if available)
 
+## Screenshots
+
+
+
 Getting Started
 To get the content of this project locally you need to run this command in your terminal:
 
