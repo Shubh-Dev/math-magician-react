@@ -7,6 +7,8 @@
 body {
   margin: 0;
   padding: 0;
+  background: linear-gradient(to right, #eea486, #dfd9e1);
+  font: 20px/1.5 Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -29,7 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  padding: 26px 3px 0 3px;
+  padding: 26px 5px 0 3px;
 }
 
 .container > button {
@@ -41,4 +43,10 @@ body {
 
 .orange {
   background-color: orange;
+}
+
+.letsdo {
+  margin-left: 20px;
+  font-size: 20px;
+  color: rgb(69, 71, 59);
 }
