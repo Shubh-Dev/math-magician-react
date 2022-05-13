@@ -1,3 +1,4 @@
+/* eslint-disable */
 const path = require('path');
 const express = require('express');
 
@@ -13,3 +14,4 @@ app.get('*', (req, res) => {
 app.listen(port, () => {
   console.log(`The server is running at http://localhost:${port}`);
 });
+/* eslint-enable */

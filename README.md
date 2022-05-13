@@ -10,7 +10,7 @@
 
 ## Live Demo (if available)
 
-[Webpage Link ](https://fast-anchorage-14363.herokuapp.com/)
+[Webpage Link](https://fast-anchorage-14363.herokuapp.com/)
 
 ## Screenshots
 
