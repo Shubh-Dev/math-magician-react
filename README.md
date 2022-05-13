@@ -11,6 +11,7 @@
 ## Live Demo (if available)
 
 [Webpage Link](https://starlit-sorbet-647350.netlify.app/)
+<br/>
 [Webpage Link](https://fast-anchorage-14363.herokuapp.com/)
 
 ## Screenshots
@@ -31,7 +32,6 @@ After cloning In the project directory, you can run:
 👤 **Shubh M**
 
 - GitHub: [@Shubh-Dev](https://github.com/Shubh-Dev) 
-<br/>
 - LinkedIn: [LinkedIn](https://linkedin.com/in/shubh.scb)
 
 
