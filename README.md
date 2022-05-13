@@ -30,7 +30,8 @@ After cloning In the project directory, you can run:
 
 👤 **Shubh M**
 
-- GitHub: [@Shubh-Dev](https://github.com/Shubh-Dev) <br>
+- GitHub: [@Shubh-Dev](https://github.com/Shubh-Dev) 
+<br>
 - LinkedIn: [LinkedIn](https://linkedin.com/in/shubh.scb)
 
 
